@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food App</title>
+</head>
+<body>
+    <h1>The Brunch House 😋</h1>
+        <img src="https://i.pinimg.com/564x/ee/ec/09/eeec09c86427677732fbab9e3c5c910b.jpg" class="head" alt="">
+
+        <p>No need to worry about today's food. Search all the food categories here and get the suggestions 
+            for the meal of the day with their recipes only at 
+            <br>
+            <br>
+
+        <b>"THE BRUNCH HOUSE"</b></p>
+
+        <div><input type="search" placeholder="🔎Search here....." id="search">
+        <button id="button" onclick="loading()">Search</button><br></div>
+
+        <div class="text">Random Meal of the day</div>
+
+        <div class="container">
+            <div id="image"></div>
+            <div id="dish"></div></div>
+
+            <h2>List of the meals</h2>
+        <div id="list">
+            <div id="images"></div>
+            <div id="name"></div>
+        </div>
+        <div id="modal" class="rModal">
+            <div class="content">
+                <span class="off" onclick="modalClose()"> &times;</span>
+                <h2 class="ingredients">Ingredients</h2>
+                <div id="Ilist"></div>
+            </div>
+        </div>
+
+        <footer>Made with ❤️ by Kritika Walia</footer>
+        <script src="app.js"></script>
+</body>
+</html>
